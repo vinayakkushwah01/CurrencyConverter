@@ -1,0 +1,93 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #e1b382;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/* Sand Tan: #e1b382 Sand Tan Shadow: #c89666 Night Blue: #2d545e Night Blue Shadow: #12343b
+*/
+
+body {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.form_main {
+  font-size: 25px;
+  display: block;
+  border: solid;
+  border-color: #c89666;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+input {
+  font-size: large;
+  padding: 2px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.from-div {
+  display: flex;
+  padding: 10px;
+  height: max-content;
+  justify-content: left;
+  align-items: center;
+  width: fit-content;
+
+}
+
+.to-div {
+  display: flex;
+  padding: 10px;
+  height: max-content;
+  justify-content: right;
+  align-items: center;
+  width: fit-content;
+}
+
+.main-div {
+  display: inline-flex;
+}
+
+.main-div {
+  justify-content: right;
+  align-items: center;
+
+}
+
+.main-div select {
+  min-width: 70px;
+  max-width: fit-content;
+  border: none;
+  border-radius: 6px;
+  font-size: large;
+  padding: 2px;
+  margin-left: 8px;
+}
+
+button {
+  font-size: smaller;
+  background-color: #12343b;
+  color: white;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 5px;
+}
+
+form {
+  background-color: #bb2b2bb8;
+  color: #fff;
+}
